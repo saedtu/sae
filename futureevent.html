@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE Events - Invictus x SAE-DTU</title>
+    <link rel="icon" type="image/x-icon" href="icons/saelogo2.ico">
+    <link rel="stylesheet" href="css/futureevent.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .navbar{
+        width: 100%;
+        height: 90px;
+        position: fixed;
+        z-index: 1000;
+        overflow: hidden;
+        background: none;
+}
+</style>
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blog</a>
+          <a href="events.html">Events</a>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+        </div>
+    </div>
+<div class="container">
+    <div class="navbar" id="navbar">
+        <div class="menu" onclick="openNav()">
+              <img src="img/menu.svg" alt="img" width="38px" height="38px"> 
+        </div>
+        <div class="logo" >
+          <img src="img/logo.png" alt="img" width="138px" height="61px">
+        </div>
+        <div class="logo2">
+          <img src="img/logo.png" alt="img" width="138px" height="61px" style="background: none;">
+        </div>
+        <div class="buttons1">
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blogs</a>
+          <a href="events.html">Events</a>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="bgimage">
+        <img src="img/mcquiz.png" alt="img">
+    </div>
+    
+</div>
+<div class="backgroundc">
+<div class="container4">
+    <div class="heading">
+        <h4>Invictus x SAEDTU Tech Fest</h4>
+        <h6>12 Aug 2022</h6>
+        <div class="register">
+            <a href="#">Register Now</a>
+        </div>
+    </div>
+
+    <div class="blogtextbody">
+        <p>We organised an exciting quiz for all the automotive enthusiasts in which students were to answer several Questions about the automotive industry and each question had a time limit. The top three students who answered most no.s of questions correctly were announced winners and were awarded with  prizes like spotify and netflix subscriptions.
+            <br>
+            <br>
+            
+            <img  style="max-width: 1280px;width: 100%; height: auto; padding: 20px 0 20px 0;" src="events_img/2.png">
+            <br>
+            <br>
+            <img  style="max-width: 1280px;width: 100%; height: auto; padding: 20px 0 20px 0;" src="events_img/6.png">
+            <br>
+            <br>
+            John Shevelew doesn’t notice too much road rage at home in York, Pennsylvania, where he is president of the state’s Tesla Owners Club. Things change when he drives through the south. “I go to Texas a lot to see my daughter in Austin, and in Arkansas, Mississippi, those places, I run into, let’s say, less-than-friendly looks,” he said. “You get someone in a big diesel pickup truck who likes to express their dissatisfaction with the idea of an electric car.”
+            
+            Laura Kennedy, who also lives in Pennsylvania, agrees. “It’s almost always a guy in a pickup truck [who does something],” she said. “I don’t think I’ve ever been flipped off in my life as much as I have in the past year or so.”</p>
+    </div>
+
+    <div class="space10" style="padding-top:45px ;"></div>
+    
+    
+    <div class="space10" style="padding-top:45px ;"></div>
+    
+    
+    
+</div>
+</div>
+
+<footer class="footer-distributed">
+
+    <div class="footer-right">
+
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+
+    </div>
+
+    <div class="footer-left">
+        <p style="font-size: 22px; color: white; font-family: 'Poppins'; padding-bottom: 5px;">Address</p>
+        <p>Delhi Technological University, Bawana Road, Shahbad Daulatpur, New Delhi-110042</p>
+        <p  style="padding-bottom: 15px;">email- saedtu@dtu.ac.in</p>
+        <p class="footer-links">
+            <a class="link-1" href="#">Home</a>
+
+            <a href="#">Blog</a>
+
+            <a href="#">Events</a>
+
+            <a href="#">Team</a>
+
+            <a href="#">Contact</a>
+        </p>
+
+        <p style="font-family: 'poppins';">SAE-DTU &copy; 2022</p>
+    </div>
+
+</footer>
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            document.getElementById("navbar").style.background = "rgba(0, 0, 0, 0.09)";
+            document.getElementById("navbar").style.backdropFilter = "blur(6px)";
+            document.getElementById("navbar").style.borderBottom= "1px solid rgba(255, 255, 255, 0.16)";
+
+        } else {
+            document.getElementById("navbar").style.background = "none";
+            document.getElementById("navbar").style.backdropFilter = "none";
+            document.getElementById("navbar").style.borderBottom = "none";
+        }
+    } 
+    
+    function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+    }
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }
+</script>
+</body>
+</html>

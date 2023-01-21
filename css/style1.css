@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter'); 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins');
+*{ 
+    background-color: #151515;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.space{
+  padding-bottom: 500px;
+}
+
+.navbar .logo2{
+  visibility: hidden;
+}
+
+.logo1{
+  visibility: hidden;
+  display: none;
+}
+
+.navbar .buttons1{
+    width: max-content;
+    background-color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.29);
+    border: 1px solid rgba(255, 255, 255, 0.19);
+    backdrop-filter: blur(10px);
+    padding: 10px 30px 10px 30px;
+    border-radius: 40px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    
+}
+.navbar .menu{
+  background: none;
+  position: absolute;
+  padding: 30px;
+  z-index: 1001;
+}
+.navbar .menu img{
+  background: none;
+}
+.navbar .logo{
+  background: none;
+  position: absolute;
+  padding: 20px 0 0 85px;
+}
+.navbar .menu:hover{
+  cursor: pointer;
+}
+.navbar .logo img{
+    background: none;
+}
+.navbar .buttons1 a{
+    padding: 9px 15px 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: 0.3s;
+    background: none;
+}
+
+.navbar .buttons1 a:hover{
+    background-color: rgba(255, 255, 255, 0.128);
+    
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1002;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+  background: white;
+  overflow-y: hidden;
+}
+
+.overlay-content {
+  background: none;
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  background: none;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #000000;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font-size: 60px;
+}
+
+
+.container {
+    position: relative;
+    background: #aad5f6;
+}
+
+.bgimage h5{
+    text-align: center;    
+    padding-top: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    font-size: clamp(20px, 3vw, 35px);
+    font-family: 'Poppins';
+    color: #ffffff;
+
+}
+
+.bgimage img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 6px 10px;
+}
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px; padding-left: clamp(20px, 3vw, 40px);}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .container4{
+      padding-left: 10px;
+      max-width: 1280px;
+      margin: 0 auto;
+  }
+  /* Responsive columns */
+  
+  .card {
+    border-radius: 15px;
+    text-align: left;
+    background-color: none;
+    filter: drop-shadow(0px 4px 40px rgba(53, 53, 53, 0.096));
+    overflow: hidden;
+  }
+  
+  .card .txt{
+    position: absolute;
+    text-align: left;
+    overflow: hidden;
+    bottom: 8px;
+    left: 27px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background: none;
+  }
+  .card .txt h4{
+    font-size: 19px;
+    font-family: 'Poppins';
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 10px;
+    background: none;
+  }
+  
+  .card .txt p{
+    font-size: 13px;
+    font-family: 'Poppins';
+    color: #ffffff8c;
+    background: none;
+    font-weight: 13;
+    background-color: none;
+  }
+  .card .txt .dates{
+    padding-top: 10px;
+    float: right;
+    background: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'Poppins';
+  }
+  
+  .container4 .heading h4{
+
+    font-family: 'Poppins';
+    font-size: clamp(24px, 3vw,34px);
+    padding: 0 0 30px 35px;
+    color: #ffffff;
+  }
+  
+  
+  .card img{
+    display: block;
+    position: center;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    transition: 0.3s;
+  }
+  
+  .card:hover img{
+        transform: scale(1.05);
+        overflow: hidden;
+        
+  }
+  .card:hover{
+        cursor: pointer;
+  }
+  
+  /*
+  .card:hover img{
+      transform: scale(1.04);
+      overflow: hidden;
+      
+  }
+  .card:hover{
+      cursor: pointer;
+  }
+  /*
+  /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore... */
+  section {
+    width: 100%;
+    display: inline-block;
+    background: #ccc;
+    height: 60vh;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  
+  .footer-distributed {
+    border-top: 1px solid rgba(255, 255, 255, 0.19);
+    background-color: #151515;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 14px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .footer-distributed .footer-left p {
+    background:none;
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Poppins';
+  }
+  /* Footer links */
+  
+  .footer-distributed p.footer-links {
+    background:none;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed p.footer-links a {
+    background:none;
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    background:none;
+    content: "·";
+    font-size: 14px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  .footer-distributed .footer-right {
+    background:none;
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+  }
+  
+  .footer-distributed .footer-right a {
+    
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition:all .25s;
+  }
+  
+  .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+  
+  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+  
+@media screen and (max-width: 800px) {
+    
+    .card .txt p{
+      display: none;
+    }
+    .container4{
+      padding-right: 25px;
+    }
+    
+    .bgimage img{
+      display: block;
+      object-fit: cover;
+      width: auto;
+      height: 250px;
+    }
+    .bgimage{
+      display: flex;
+      overflow: hidden;
+      justify-content: center;
+    }
+    .navbar .buttons1{
+      display: none;
+    }
+    .navbar .menu{
+        background: none;
+        position: absolute;
+        padding: 25px 0 0 20px;
+    }
+    .navbar .logo2{
+        background: none;
+        visibility: visible;
+        z-index: 1001;
+        padding-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar .logo{
+        display: none;
+    }
+    
+    .logo1 img{
+      background: none;  
+      width: max-content;
+      padding: 16px 0 0 80px;
+      margin: 0 auto;
+      visibility: visible;
+      position: fixed;
+      z-index: 1000;
+      background: none;
+
+  }
+}
+  
+@media screen and (max-width: 600px) {
+    .container4{
+      padding-right: 35px;
+    }
+    .bgimage h5{
+        display: none;
+    }
+    .row{
+        padding-left: 0;
+    }
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .card h4{
+      font-size: 28px;
+    }
+    .card p{
+      display: none;
+      }
+    .card .txt .dates{
+        padding-top: 0px;
+    }
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+      text-align: center;
+    }
+    .footer-distributed .footer-right {
+      float: none;
+      margin: 0 auto 20px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+      line-height: 1.8;
+    }
+    .container4 .heading h4{
+      padding: 25px 0 30px 10px;
+    }
+}

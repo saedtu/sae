@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE Blog - Robot keeps F22 Raptor stealth</title>
+    <link rel="icon" type="image/x-icon" href="icons/saelogo2.ico"> 
+    <link rel="stylesheet" href="css/blogpage.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .navbar{
+        width: 100%;
+        height: 90px;
+        position: fixed;
+        z-index: 1000;
+        overflow: hidden;
+        background: none;
+}
+</style>
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blog</a>
+          <a href="events.html">Events</a>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+        </div>
+    </div>
+<div class="container">
+    <div class="navbar" id="navbar">
+        <div class="menu" onclick="openNav()">
+              <img src="img/menu.svg" alt="img" width="38px" height="38px"> 
+        </div>
+        <div class="logo" >
+          <img src="icons/logobr.png" alt="img" width="138px" height="61px">
+        </div>
+        <div class="logo2">
+          <img src="icons/logobr.png" alt="img" width="138px" height="61px" style="background: none;">
+        </div>
+        <div class="buttons1">
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blogs</a>
+          <a href="events.html">Events</a>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="bgimage">
+        <img src="blogs/f22bg.png">
+    </div>
+    
+</div>
+<div class="backgroundc">
+<div class="container4">
+    <div class="heading">
+        <h4>Robots Keep F-22 Raptor Fighters Healthy and Stealthy</h4>
+        <h6>5 Jan 2023 <br> ~ Credits: US Air Force</h6>
+    </div>
+    <div class="space1" style="padding-top: 25px;"></div>
+    <div class="blogtextbody">
+        <p>One of the U.S. Air Force’s most critical and time-consuming tasks is keeping its fleet of aircraft well maintained and operational. With some planes, such as the B-2 Bomber and F-22 Raptor, that includes keeping the radar-absorbent coating clean and smooth.
+            <br>
+            <br>
+            On the twin-engined F-22s, maintaining the coating, which helps maximize its stealthiness and survivability, is particularly difficult on the air inlet ducts. The inlets ensure smooth air flows into the engines despite turbulent air coming at the ducts from several directions. Small objects, possibly even hail, being sucked into the engine at high speed can likely put some scratches in the inlet’s surface finish.
+            <br>
+            <br>
+            To keep the plane performing at its best, the Air Force refurbishes the ducts periodically, sanding off the weathered coating and applying a new one. Since 2016, the Air Force has been using robots from Aerobotix to handle these chores.
+            <br>
+            <img  style="max-width: 1280px;width: 100%; height: auto; padding: 20px 0 20px 0;" src="blogs/f22production.jpg">
+            <br>
+            <br>
+            Aerobotix received funding from the Air Force’s Small Business Innovation Research and Small Business Technology Transfer programs to develop its robotic painting system. On the F-22, it can restore the performance coatings on inlet ducts far more quickly, cost efficiently, and accurately than doing so by hand.
+            <br>
+            <br>
+            The automated painting system for the F-22s uses two robots working at the forward and aft ends of the ducts to sand and spray-coat them. Three of these systems have been installed at the F-22 Depot at the headquarters of the Ogden Air Logistics Complex at Hill Air Force Base, Utah.
+            <br>
+            <br>
+            “Our robotic technology can paint inlet ducts using only about 300 hours of labor, rather than the 1,600 hours it takes to do it manually,” says project manager Bret Benvenuti, a senior robotics engineer at Aerobotix. “That’s a labor saving of around 80%, so it really helps solve the challenge of getting these aircraft back into service quicker. And we estimate that since 2016, we’ve helped the Air Force save $8.8 million, $220,000 per aircraft, in maintenance costs.</p>
+    </div>
+
+    <div class="space10" style="padding-top:45px ;"></div>
+    
+    
+    <div class="space10" style="padding-top:45px ;"></div>
+    
+    
+    
+</div>
+</div>
+
+<footer class="footer-distributed">
+
+    <div class="footer-right">
+
+        <!--a href="#"><i class="fa fa-facebook"></i></a-->
+        <!--a href="#"><i class="fa fa-twitter"></i></a-->
+        <a href="https://www.linkedin.com/company/sae-dtu/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/dtusae/" target="_blank"><i class="fa fa-instagram"></i></a>
+
+    </div>
+
+    <div class="footer-left">
+        <p style="font-size: 22px; color: white; font-family: 'Poppins'; padding-bottom: 5px;">Address</p>
+        <p>Delhi Technological University, Bawana Road, Shahbad Daulatpur, New Delhi-110042</p>
+        <p  style="padding-bottom: 15px;">email- saedtu@dtu.ac.in</p>
+        <p class="footer-links">
+            <a class="link-1" href="#">Home</a>
+
+            <a href="#">Blog</a>
+
+            <a href="#">Events</a>
+
+            <a href="#">Team</a>
+
+            <a href="#">Contact</a>
+        </p>
+
+        <p style="font-family: 'poppins';">SAE-DTU &copy; 2022</p>
+    </div>
+
+</footer>
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            document.getElementById("navbar").style.background = "rgba(0, 0, 0, 0.09)";
+            document.getElementById("navbar").style.backdropFilter = "blur(6px)";
+            document.getElementById("navbar").style.borderBottom= "1px solid rgba(255, 255, 255, 0.16)";
+
+        } else {
+            document.getElementById("navbar").style.background = "none";
+            document.getElementById("navbar").style.backdropFilter = "none";
+            document.getElementById("navbar").style.borderBottom = "none";
+        }
+    } 
+    
+    function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+    }
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }
+</script>
+</body>
+</html>

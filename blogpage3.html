@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE Blog - History of gears</title>
+    <link rel="icon" type="image/x-icon" href="icons/saelogo2.ico">
+    <link rel="stylesheet" href="css/blogpage.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .navbar{
+        width: 100%;
+        height: 90px;
+        position: fixed;
+        z-index: 1000;
+        overflow: hidden;
+        background: none;
+}
+</style>
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blog</a>
+          <a href="events.html">Events</a>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+        </div>
+    </div>
+<div class="container">
+    <div class="navbar" id="navbar">
+        <div class="menu" onclick="openNav()">
+              <img src="img/menu.svg" alt="img" width="38px" height="38px">
+        </div>
+        <div class="logo" >
+          <img src="icons/logobr.png" alt="img" width="138px" height="61px">
+        </div>
+        <div class="logo2">
+          <img src="icons/logobr.png" alt="img" width="138px" height="61px" style="background: none;">
+        </div>
+        <div class="buttons1">
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blogs</a>
+          <a href="events.html">Events</a>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="bgimage">
+        <img src="img/gearbg.png">
+    </div>
+
+</div>
+<div class="backgroundc">
+<div class="container4">
+    <div class="heading">
+        <h4>HISTORY OF GEARS AND WHERE GEAR MANUFACTURING IS TODAY</h4>
+        <h6>12 Jan 2022 <br> ~ RISHI VAID</h6>
+    </div>
+    <div class="space1" style="padding-top: 25px;"></div>
+    <div class="blogtextbody">
+        <p>Gears are such a common simple machine that it’s hard to think there was ever a time before they were used. But just like the wheel or any other man-made invention, gears had a starting point, and a course of evolution over thousands of years that have led to their current state today.
+            <br>
+            <br>
+            It’s hard to say when the first gear was developed, but some of our earliest records point back to around 2700 BCE, with gears featuring in a device called the Chinese South-Pointing Chariot. This chariot featured a gear that would automatically turn a directional arrow so it always pointed south, no matter which way the chariot itself turned. It was one of the earliest ways to gauge cardinal directions without the use of magnets.
+            <br>
+            <br>
+            Gears were also formally mentioned by Aristotle in some of his writings around 400 BCE. He described gears as capable of reversing the direction of momentum, and we’ve found artifacts dating back almost this far with gears as central components, such as in wheels and rudimentary clocks. Gears also featured prominently in inventive sketches by Leonardo da Vinci, circa 1500.
+            <br>
+            <br>
+            By the 1600s, scientists and engineers were figuring out mathematical concepts like velocity ratios and involute curves, allowing them to use gears for more complex and more heavy-duty tasks, but it wasn’t until the 1800s when the first form cutters and gear hobbing machines emerged, allowing gears to be mass-produced and refined in terms of form and performance.
+            <br><br>
+            The next major step forward was in 1897, when Herman Pfauter invented a machine that could cut both traditional “spur” gears and helical gears, driving production further forward. Over the next hundred years or so, the development of NC hobbing machines and full 6 axis machines would start to perfect how we design, cut, and manufacture gears.
+            <br><br>
+            Today, gear manufacturers primarily use CNC machines to cut gears from blanks, and our level of precision is driven by sophisticated design software and advanced engineering theories. Modern gears are exceptional pieces of work, capable of lasting centuries (or longer, if cared for properly), and technology continues to advance to bring us better ways of producing gears.
+
+          </p>
+    </div>
+
+    <div class="space10" style="padding-top:45px ;"></div>
+
+
+    <div class="space10" style="padding-top:45px ;"></div>
+
+
+
+</div>
+</div>
+
+<footer class="footer-distributed">
+
+    <div class="footer-right">
+
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+
+    </div>
+
+    <div class="footer-left">
+        <p style="font-size: 22px; color: white; font-family: 'Poppins'; padding-bottom: 5px;">Address</p>
+        <p>Delhi Technological University, Bawana Road, Shahbad Daulatpur, New Delhi-110042</p>
+        <p  style="padding-bottom: 15px;">email- saedtu@dtu.ac.in</p>
+        <p class="footer-links">
+            <a class="link-1" href="#">Home</a>
+
+            <a href="#">Blog</a>
+
+            <a href="#">Events</a>
+
+            <a href="#">Team</a>
+
+            <a href="#">Contact</a>
+        </p>
+
+        <p style="font-family: 'poppins';">SAE-DTU &copy; 2022</p>
+    </div>
+
+</footer>
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            document.getElementById("navbar").style.background = "rgba(0, 0, 0, 0.09)";
+            document.getElementById("navbar").style.backdropFilter = "blur(6px)";
+            document.getElementById("navbar").style.borderBottom= "1px solid rgba(255, 255, 255, 0.16)";
+
+        } else {
+            document.getElementById("navbar").style.background = "none";
+            document.getElementById("navbar").style.backdropFilter = "none";
+            document.getElementById("navbar").style.borderBottom = "none";
+        }
+    }
+
+    function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+    }
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }
+</script>
+</body>
+</html>

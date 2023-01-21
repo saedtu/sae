@@ -1,0 +1,11 @@
+RewriteEngine On
+# rewrite the css and js files if they have the className prepended to them.
+RewriteCond %{REQUEST_URI} ^(.+)\/(.+)\.(css|js)$ [NS]
+RewriteRule ^(.+)\/(.+)\.(css|js)$ $2.$3 [L]
+
+# rewrite the uri to a get superglobal
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
